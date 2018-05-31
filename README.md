@@ -1,3 +1,7 @@
+# Updates
+
+5/31/2018: Added support for ES6+ strict content types. (Ref: https://www.elastic.co/blog/strict-content-type-checking-for-elasticsearch-rest-requests)
+
 # CloudFront log viewer
 
 Import [CloudFront logs](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html#LogFileFormat) into a local [Elasticsearch](https://www.elastic.co/products/elasticsearch) instance and visualize them using [Kibana](https://www.elastic.co/products/kibana)
