@@ -1,4 +1,4 @@
-# Updates
+# Updates (mrl)
 
 5/31/2018: Added support for ES6+ strict content types. (Ref: https://www.elastic.co/blog/strict-content-type-checking-for-elasticsearch-rest-requests)
 
