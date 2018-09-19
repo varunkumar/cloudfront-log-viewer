@@ -67,7 +67,9 @@ def import_logs(logs, es_url, index, doc_type, batch_size=1000):
         total_item_bytes = total_item_bytes + item_bytes
         start_time = datetime.now()
 
-        resp = requests.post(bulk_index_url, data=bulk_index_content)
+        
+        headers = { "Content-Type": "application/json" }
+        resp = requests.post(bulk_index_url, data=bulk_index_content, headers=headers)
         resp_json = resp.json()
         if resp.status_code != 200:
             logger.error(json.dumps(resp_json, indent=2))
